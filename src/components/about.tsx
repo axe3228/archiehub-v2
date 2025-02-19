@@ -6,7 +6,7 @@ const About = () => {
   );
 
   return (
-    <div className="section flex flex-col space-y-5 px-5 text-dark-primary-txt/75" id="about">
+    <div className="section flex flex-col space-y-5 lg:px-5 text-dark-primary-txt/75" id="about">
       <p>
         Back in 2015, I dove into the world of coding, experimenting with desktop and mobile application development. 
         That curiosity quickly turned into a passion for web development. Fast forward to today, and I've had the 

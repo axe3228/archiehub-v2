@@ -14,7 +14,7 @@ const Header = ({activeSection}: NavProps) => {
                 </div>
                 <Nav activeSection={activeSection}/>
             </div>
-            <div className="flex space-x-5">
+            <div className="flex space-x-5 mt-8">
                 <a href="https://github.com/axe3228" target="_blank"><Image src="/svg/github-mark-white.svg" alt="" width={24} height={24} /></a>
                 <a href="https://www.instagram.com/nara_archie/?hl=en" target="_blank"><Image src="/svg/instagram.svg" alt="" width={24} height={24} /></a>
                 <a href="https://www.linkedin.com/in/archie-habaradas/" target="_blank"><Image src="/images/linkedin-icon.png" alt="" width={24} height={24} /></a>

@@ -12,7 +12,7 @@ const Projects = () => {
     };
 
     const Project = ({image, name, acronym, description, tags} : ProjectProps) => (
-        <div className="flex items-start justify-between space-x-5 p-5">
+        <div className="flex items-start justify-between space-x-5 lg:p-5">
             <Image src={image} alt="" width={100} height={50}/>
             <div className="">
                 <h3 className="font-medium leading-snug text-slate-200">{name}</h3>

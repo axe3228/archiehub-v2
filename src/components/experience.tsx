@@ -15,7 +15,7 @@ export type ExperienceProps = {
 
 const Experience = () => {
     const ExpTemplate = ({date, jobRole, company, description, url, tags} : ExperienceProps) => (
-        <a href={url} target="_blank" className="flex justify-between space-x-5 transition-all duration-100 hover:bg-white/5 p-5 rounded-lg">
+        <a href={url} target="_blank" className="flex justify-between space-x-5 transition-all duration-100 lg:hover:bg-white/5 lg:p-5 lg:rounded-lg">
             <p className="mb-2 mt-1 text-xs font-semibold uppercase text-dark-secondary-txt 
             sm:col-span-2 whitespace-nowrap">{date}</p>
             <div className="">
@@ -32,7 +32,7 @@ const Experience = () => {
     );
 
     return (
-        <div className="section space-y-5" id="experience">
+        <div className="section lg:space-y-5 space-y-8" id="experience">
             {
                 Experiences.sort((a, b) => b.id - a.id).map((exp: ExperienceProps, i) => (
                     <ExpTemplate
