@@ -42,7 +42,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="mx-auto min-h-screen max-w-screen-xl px-4 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="mx-auto min-h-screen max-w-screen-xl px-4 pt-10 pb-5 font-sans md:px-12 md:py-20 sm:py-12 lg:px-24 lg:py-0">
       <div className="min-h-screen lg:flex lg:justify-between lg:gap-4">
         <Header activeSection={activeSection}/>
         <ContentWrapper />

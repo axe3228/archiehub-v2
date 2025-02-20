@@ -2,7 +2,7 @@ import Hyperlink from "./hyperlink";
 
 const Footer = () => {
     return (
-        <p className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+        <p className="max-w-md text-sm text-slate-500 sm:pb-0">
             Coded in <Hyperlink href={"https://code.visualstudio.com/"} 
             name={"Visual Studio Code"} label={"visual-studio-code"} hlColor="text-slate-400"/> by me. 
             Built with <Hyperlink href={"https://nextjs.org/"} 
