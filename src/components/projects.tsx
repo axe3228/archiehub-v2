@@ -15,7 +15,7 @@ const Projects = () => {
 
     const Project = ({image, name, description, href, tags} : ProjectProps) => (
         <a href={href} target="_blank">
-            <div className="flex flex-col justify-center items-center lg:p-5">
+            <div className="flex flex-col justify-center items-center transition-all duration-100 lg:hover:bg-white/5 lg:p-5 lg:rounded-lg">
                 <Image src={image ?? ''} alt="" layout="responsive" width={100} height={50}/>
                 <div className="mt-5">
                     <h3 className="font-medium leading-snug text-dark-primary-txt">{name}</h3>
